@@ -1,3 +1,9 @@
+# Name    : Exercise3-3.py
+# Author  : Ryan Carr
+# Date    : 02/03/19
+# Purpose : Calculates grade based on a given score
+#           Quits if bad data is input
+
 try:
     grade = float(input('Enter score: '))
 except:

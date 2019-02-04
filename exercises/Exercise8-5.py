@@ -1,3 +1,9 @@
+# Name    : Exercise8-5.py
+# Author  : Ryan Carr
+# Date    : 02/03/19
+# Purpose : Open a file, extract email addresses
+#           Display email addresses on screen followed by total count
+
 # Text files are stored in the data folder one level up
 filename = input('Enter a filename: ')
 if filename == 'mbox-short.txt':

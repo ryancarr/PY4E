@@ -1,3 +1,9 @@
+# Name    : Exercise5-1.py
+# Author  : Ryan Carr
+# Date    : 02/03/19
+# Purpose : Ask user for multiple numbers then output total,
+#           count and average
+
 total = 0
 count = 0
 

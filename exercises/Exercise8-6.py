@@ -1,3 +1,9 @@
+# Name    : Exercise8-5.py
+# Author  : Ryan Carr
+# Date    : 02/03/19
+# Purpose : Read numbers into a list, use built-in min and max
+#           methods to calculate minimum and maximum values
+
 numbers = []
 
 while True:

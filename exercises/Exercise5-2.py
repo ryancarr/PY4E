@@ -1,3 +1,9 @@
+# Name    : Exercise5-2.py
+# Author  : Ryan Carr
+# Date    : 02/03/19
+# Purpose : Asks user for multiple numbers then tell user
+#           Minimum and Maximum value input
+
 minimum = None
 maximum = None
 

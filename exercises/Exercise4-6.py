@@ -1,3 +1,9 @@
+# Name    : Exercise4-6.py
+# Author  : Ryan Carr
+# Date    : 02/03/19
+# Purpose : Calculates pay based on hours worked and pay rate
+#           Uses function to calculate pay
+
 def computepay(hours, rate):
     if(hours > 40):
         hours_over = hours - 40
