@@ -24,10 +24,7 @@ for line in fh:
         continue
     email = line.split()[1]
 
-    if email in emails.keys():
-        emails[email] += 1
-    else:
-        emails[email] = 1
+    emails[email] = emails.get(email,0) + 1
 
 fh.close()
 

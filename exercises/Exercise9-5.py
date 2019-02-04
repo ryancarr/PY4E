@@ -23,10 +23,7 @@ for line in fh:
     email = line.split()[1]
     domain = email.split('@')[1]
 
-    if domain in emails.keys():
-        emails[domain] += 1
-    else:
-        emails[domain] = 1
+    emails[domain] = emails.get(domain, 0) + 1
 
 fh.close()
 
