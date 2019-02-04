@@ -24,3 +24,5 @@ for line in fh:
 
 words.sort()
 print(words)
+
+fh.close()
