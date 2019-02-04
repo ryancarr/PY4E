@@ -27,3 +27,5 @@ for line in fh:
 average = total / count
 
 print('Average spam confidence:', average)
+
+fh.close()
